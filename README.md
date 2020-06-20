@@ -18,7 +18,7 @@ This example shows how to extend `OpenAPI` and how to use ReDoc's type [`TagGrou
 import { OpenAPI, Tag, openapiVersion } from '@kojidev/openapi-ts';
 import { OpenAPIReDocExtension, TagGroup } from '@flaksp/openapi-ts-redoc';
 
-const cardTag: Tag = {
+const cartTag: Tag = {
   name: 'Cart',
 };
 
@@ -29,7 +29,7 @@ const shippingTag: Tag = {
 const storeTagGroup: TagGroup = {
   name: 'Store',
   tags: [
-    cardTag.name,
+    cartTag.name,
     shippingTag.name,
   ],
 };

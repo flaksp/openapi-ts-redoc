@@ -2,7 +2,7 @@
 
 ## Supported Versions
 
-We maintain only latest version of library. We are watching for latest changes made in [ReDoc](https://github.com/Redocly/redoc) and [`@kojidev/openapi-ts`](https://github.com/kojidev/openapi-ts).
+We maintain only latest version of the library. We are watching for latest changes made in [ReDoc](https://github.com/Redocly/redoc) and [`@kojidev/openapi-ts`](https://github.com/kojidev/openapi-ts).
 
 ## Reporting a Vulnerability
 
