@@ -7,7 +7,7 @@ This library is an extension for [`@kojidev/openapi-ts`](https://github.com/koji
 This package is available in [npm Registry](https://www.npmjs.com/package/@flaksp/openapi-ts-redoc):
 
 ```
-npm install --save @flaksp/openapi-ts-redoc
+npm install @flaksp/openapi-ts-redoc --save
 ```
 
 ## Usage examples
