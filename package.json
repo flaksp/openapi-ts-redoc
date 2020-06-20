@@ -1,0 +1,35 @@
+{
+  "name": "@flaksp/openapi-ts-redoc",
+  "description": "Extension for @kojidev/openapi-ts that adds ReDoc types and extensions.",
+  "repository": "github:flaksp/openapi-ts-redoc",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "keywords": [
+    "openapi"
+  ],
+  "dependencies": {
+    "@kojidev/openapi-ts": "*"
+  },
+  "devDependencies": {
+    "@hutson/npm-deploy-git-tag": "6.0.0",
+    "@types/node": "^14.0.11",
+    "@typescript-eslint/eslint-plugin": "^3.1.0",
+    "@typescript-eslint/parser": "^3.1.0",
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-typescript": "^8.0.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-sort-keys-fix": "^1.1.1",
+    "eslint-plugin-typescript-sort-keys": "^1.2.0",
+    "eslint-plugin-unused-imports": "0.1.3",
+    "typescript": "^3.9.5"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "fix-ts": "eslint . --fix",
+    "lint-ts": "eslint ."
+  }
+}
