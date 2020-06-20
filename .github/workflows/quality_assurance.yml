@@ -2,8 +2,11 @@ name: Quality assurance
 
 on:
   push:
+    branches:
+    - '*'
+
     tags-ignore:
-    - *
+    - '*'
 
 jobs:
   eslint:
