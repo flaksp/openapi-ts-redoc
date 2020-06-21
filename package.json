@@ -6,7 +6,8 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "keywords": [
-    "openapi"
+    "openapi",
+    "redoc"
   ],
   "dependencies": {
     "@kojidev/openapi-ts": ">=0.0.0 <1.0.0"
