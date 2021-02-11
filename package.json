@@ -23,7 +23,7 @@
     "eslint-plugin-sort-keys-fix": "1.1.1",
     "eslint-plugin-typescript-sort-keys": "1.5.0",
     "eslint-plugin-unused-imports": "1.0.1",
-    "typescript": "3.9.7"
+    "typescript": "3.9.9"
   },
   "files": [
     "lib"
